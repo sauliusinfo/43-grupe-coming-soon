@@ -1,0 +1,58 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+/* components */
+@import '../components/footer.css';
+/* CUSTOM STYLE */
+
+.hero {
+    min-height: 100vh;
+    background-color: yellow;
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero > .short-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.hero .logo {
+    height: 50px;
+}
+.hero .title {
+    font-size: 80px;
+}
+.hero .description {
+    font-size: 20px;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.content-description {
+    color: #555;
+    font-size: 18px;
+}
+.content-description > a {
+    color: red;
+    text-decoration: none;
+}
+.content-description > a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .hero .title {
+        font-size: 64px;
+    }
+}

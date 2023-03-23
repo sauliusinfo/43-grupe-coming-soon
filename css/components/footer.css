@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 0;
+}
+
+.footer .socials {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fff;
+}
+.footer .socials > .social {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.footer .socials > .social:hover {
+    color: #03a9f4;
+    background-color: #fff;
+}
