@@ -1,8 +1,10 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
+
 /* components */
 @import '../components/clock.css';
 @import '../components/footer.css';
@@ -10,7 +12,6 @@
 @import '../components/rectangle.css';
 
 /* CUSTOM STYLE */
-
 .hero {
     min-height: 100vh;
     background-color: yellow;
