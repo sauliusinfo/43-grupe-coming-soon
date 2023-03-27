@@ -4,7 +4,11 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/clock.css';
 @import '../components/footer.css';
+@import '../components/mouse.css';
+@import '../components/rectangle.css';
+
 /* CUSTOM STYLE */
 
 .hero {

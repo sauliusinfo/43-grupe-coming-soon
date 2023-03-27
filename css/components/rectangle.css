@@ -1,0 +1,37 @@
+.rectangle {
+    font-size: 2px;
+    width: 100em;
+    height: 100em;
+    border: 5em solid #f00;
+    position: relative;
+}
+.rectangle::after {
+    content: '';
+    display: block;
+    width: 5em;
+    height: 5em;
+    background-color: #fff;
+    position: absolute;
+    animation-name: mover;
+    animation-duration: 7s;
+    /* transform: translateX(-5em) translateY(-5em); */
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover {
+    0% {
+      transform: translateX(-5em) translateY(-5em);
+    }
+    25% {
+      transform: translateX(90em) translateY(-5em);
+    }
+    50% {
+      transform: translateX(90em) translateY(90em);
+    }
+    75% {
+      transform: translateX(-5em) translateY(90em);
+    }
+    100% {
+      transform: translateX(-5em) translateY(-5em);
+    }
+}
