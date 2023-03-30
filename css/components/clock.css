@@ -1,7 +1,7 @@
 .clock {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
     color: #fff;
 }
 .clock > .time {

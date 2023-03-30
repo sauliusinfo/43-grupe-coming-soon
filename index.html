@@ -14,56 +14,100 @@
                 <img class="logo" src="./img/logo.png" alt="Logo">
                 <h1 class="title">Coming soon</h1>
                 <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis inventore voluptates consectetur! Ullam, nihil necessitatibus maiores consectetur ipsum, ad quasi odio mollitia quam error quis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus facilis voluptate ea unde deserunt incidunt quo, temporibus, nihil suscipit quam quia repudiandae deleniti vero! Iste qui dolores error ducimus voluptatibus!</p>
+                <div class="clock">
+                    <div class="time">
+                        <div class="value">432</div>
+                        <div class="label">Days</div>
+                    </div>
+                    <div class="time">
+                        <div class="value">09</div>
+                        <div class="label">Hours</div>
+                    </div>
+                    <div class="time">
+                        <div class="value">37</div>
+                        <div class="label">Minutes</div>
+                    </div>
+                    <div class="time">
+                        <div class="value">30</div>
+                        <div class="label">Seconds</div>
+                    </div>
+                </div>
+                <div class="mouse"></div>
+                <div class="rectangle"></div>
             </div>
-            <div class="clock">
-                <div class="time">
-                    <div class="value">432</div>
-                    <div class="label">Days</div>
-                </div>
-                <div class="time">
-                    <div class="value">09</div>
-                    <div class="label">Hours</div>
-                </div>
-                <div class="time">
-                    <div class="value">37</div>
-                    <div class="label">Minutes</div>
-                </div>
-                <div class="time">
-                    <div class="value">30</div>
-                    <div class="label">Seconds</div>
-                </div>
-            </div>
-            <br>
-            <div class="mouse"></div>
-            <br>
-            <div class="rectangle"></div>
         </section>
-        <section class="container main-content">
+        <section id="turinys" class="container main-content">
             <div class="row">
-                <div class="column">
+                <div id="about" class="column">
                     <h2 class="content-title">About startup</h2>
                     <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio <a href="./">Matrox</a> quasi et hic nam amet eaque quibusdam porro voluptatem ab!</p>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">UX Design</div>
+                            <div class="value">90%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Development</div>
+                            <div class="value">51%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 51%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Design</div>
+                            <div class="value">80%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="column right">
+                <div id="question" class="column right">
                     <h2 class="content-title">Have any question?</h2>
                     <p class="content-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio <a href="mailto:info@matrox.xyz">info@matrox.xyz</a> quasi et hic nam amet eaque quibusdam porro voluptatem ab!</p>
+                    <form class="form">
+                        <label for="name">Name</label>
+                        <input id="name" class="input" type="text" placeholder="Name">
+                        <label for="email">Email</label>
+                        <input id="email" class="input" type="email" placeholder="Email">
+                        <label for="message">Message</label>
+                        <textarea class="textarea" name="" id="message" placeholder="Message"></textarea>
+                        <button class="btn" type="submit">Send message</button>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
     <footer class="container bg-main footer">
-        <div class="row socials">
-            <a href="./" target="_blank" class="social fa fa-facebook"></a>
-            <a href="./" target="_blank" class="social fa fa-twitter"></a>
-            <a href="./" target="_blank" class="social fa fa-dribbble"></a>
-            <a href="./" target="_blank" class="social fa fa-tumblr"></a>
-            <a href="./" target="_blank" class="social fa fa-linkedin"></a>
-            <a href="./" target="_blank" class="social fa fa-instagram"></a>
-            <a href="./" target="_blank" class="social fa fa-rss"></a>
+        <div class="row">
+            <div class="socials">
+                <a href="./" target="_blank" class="social fa fa-facebook"></a>
+                <a href="./" target="_blank" class="social fa fa-twitter"></a>
+                <a href="./" target="_blank" class="social fa fa-dribbble"></a>
+                <a href="./" target="_blank" class="social fa fa-tumblr"></a>
+                <a href="./" target="_blank" class="social fa fa-linkedin"></a>
+                <a href="./" target="_blank" class="social fa fa-instagram"></a>
+                <a href="./" target="_blank" class="social fa fa-rss"></a>
+            </div>
+            <a href="#" class="btn btn-icon back-to-top fa fa-angle-up"></a>
         </div>
         <div class="short-row">
-            LOGO + TEXTS Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis corrupti debitis beatae dicta deleniti voluptas exercitationem vitae dolorum, neque similique nobis nam accusamus qui sed pariatur reprehenderit? Amet, dignissimos.
+            <img class="footer-logo" src="./img/logo.png" alt="Logo">
+            <div class="trio">
+                <p>Copyright &copy; 2023 <a href="#">Matrox</a></p>
+                <p>All rights reserver</p>
+                <p>Designed by <a href="#" target="_blank">TrendyTheme</a></p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tenetur quod optio, illum necessitatibus obcaecati porro reiciendis a eligendi ipsam.</p>
         </div>
     </footer>
 </body>
+
 </html>
