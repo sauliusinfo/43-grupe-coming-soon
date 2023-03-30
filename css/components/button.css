@@ -1,0 +1,58 @@
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.2em;
+    background-color: #fd6363;
+    color: #fff;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+    border-radius: 0.2em;
+    box-shadow: 0 0.1em 0.2em #0005;
+    border: none;
+    user-select: none;
+    word-spacing: 0;
+    letter-spacing: 0em;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #f00;
+    box-shadow: 0 0.1em 0.25em #0007;
+}
+
+.btn.btn-small {
+    font-size: 16px;
+}
+.btn.btn-big {
+    font-size: 28px;
+}
+
+.btn.btn-warning {
+    background-color: orange;
+    color: black;
+}
+.btn.btn-success {
+    background-color: green;
+    color: #fff;
+}
+.btn.btn-info {
+    background-color: blue;
+    color: #fff;
+}
+
+.btn.btn-rect {
+    border-radius: 0;
+}
+.btn.btn-round {
+    border-radius: 1em;
+}
+
+.btn.btn-icon {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    font-family: FontAwesome;
+    border-radius: 1em;
+    line-height: 2em;
+    text-align: center;
+}
