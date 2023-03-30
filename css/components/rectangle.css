@@ -4,6 +4,7 @@
     height: 100em;
     border: 5em solid #f00;
     position: relative;
+    margin-top: -150px;
 }
 .rectangle::after {
     content: '';
